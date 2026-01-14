@@ -1,0 +1,189 @@
+<html>
+<head>
+
+<style>
+body{
+    max-width: 99vw;
+    background-color: #d9d9d9;
+    font-family: Ink Free;
+    min-height: 98vh;
+/*     display: flex; */
+    justify-content: center;
+}
+table, tr, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+table{
+    border: none;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: dimgrey;
+}
+
+table{
+    width: 80vw;
+    justify-self: center;
+    text-align: center;
+}
+
+table{
+    margin-top: 4rem;
+}
+
+img{
+    max-width: 200px;
+    border-radius: 25px;
+}
+
+#profile{
+    padding: 15px;
+}
+
+#sched > td{
+width: 50px;
+height: 30px;
+}
+
+.break{
+    background-color: rgb(140, 245, 140);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rest{
+    font-weight: bold;
+    background-color: rgb(107, 107, 255);
+    font-size: 24px;
+}
+
+#tcc{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(85, 252, 236);
+}
+
+#sunday{
+    font-weight: bold;
+    background-color: rgb(254, 165, 180);
+}
+
+#nstp{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 96);
+}
+
+#math{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(247, 157, 187);
+}
+
+#contemp{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(233, 114, 114);
+}
+
+#wsat{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(127, 212, 254);
+}
+
+#pe{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(213, 181, 235);
+}
+
+#comprog{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(251, 126, 251);
+}
+
+.intro{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.dan{
+    font-weight: 600;
+    color: gray;
+}
+
+#sched > td, .bold{
+    font-weight: 600;
+}
+
+
+.room{
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+.prof{
+    font-size: 18px;
+}
+
+
+</style>
+</head>
+
+<body>
+    <table>
+        <tr id="profile-row">
+            <td colspan="8" height="" id="profile"><img src="me.jpg" alt=""><br><span class="intro">Hi! I'm <span class="dan">Daniel</span>, this is my schedule :&rpar;</span></td>
+        </tr>
+        <tr>
+            <td style="background-color: grey; font-size: 20px;" colspan="8" height="50" class="bold" >SCHEDULE</td>
+        </tr>
+
+        <tr id="sched">
+            <td>TIME</td>
+            <td>MONDAY</td>
+            <td>TUESDAY</td>
+            <td>WEDNESDAY</td>
+            <td>THURSDAY</td>
+            <td>FRIDAY</td>
+            <td>SATURDAY</td>
+            <td>SUNDAY</td>
+        </tr>
+
+        <tr><td>10:30 - 11:00</td> <td rowspan="6" id="tcc"><a href="profs/jerwin.html">TCC <br> <span class="room">Room 301</span> <br> <br><span class="prof">CABRAL, JERWIN N.</span> </a></td> <td rowspan="20" class="rest">REST DAY</td> <td></td> <td rowspan="20" class="rest">REST DAY</td> <td></td> <td></td> <td rowspan="20" id="sunday">FAMILY DAY</td></tr>
+        <tr><td>11:00 - 11:30</td> <td></td><td></td></tr>
+        <tr><td>11:30 - 12:00</td><td></td><td></td></tr>
+        <tr><td>12:00 - 12:30</td><td></td><td rowspan="10" id="wsat"> <a href="profs/jerwin.html">WSAT<br> <span class="room">Room 301</span><br><br><span class="prof">CABRAL, JERWIN N.</span></a></td></tr>
+        <tr><td>12:30 - 1:00</td></tr>
+        <tr><td>1:00 - 1:30</td></tr>
+        <tr><td>1:30 - 2:00</td><td class="break">Break Time</td></tr>
+        <tr><td>2:00 - 2:30</td> <td rowspan="6" id="nstp"><a href="profs/leopoldo.html">NSTP<br> <span class="room">Room 408</span><br><br><span class="prof">DE JESUS, LEOPOLDO A.</span></a></td></tr>
+        <tr><td>2:30 - 3:00</td><td></td><td rowspan="10" id="comprog"><a href="profs/rhicky.html">COMPROG 2<br> <span class="room">Room 301/302/303</span> <br> <br><span class="prof">RABY, MARK RHICKY</span> </a></td></tr>
+        <tr><td>3:00 - 3:30</td></tr>
+        <tr><td>3:30 - 4:00</td></tr>
+        <tr><td>4:00 - 4:30</td></tr>
+        <tr><td>4:30 - 5:00</td></tr>
+        <tr><td>5:00 - 5:30</td><td rowspan="6" id="math"><a href="profs/uchi.html">COLLEGE ALGEBRA <br><span class="room">Room 310</span> <br> <br><span class="prof">UCHI, TEODULFO T.</span></a></td> <td></td><td rowspan="3" class="break">Break Time</td></tr>
+        <tr><td>5:30 - 6:00</td> <td rowspan="6" id="contemp"><a href="profs/merdegia.html">Contemporary World <br><span class="room">Room 406</span><br><br><span class="prof">MERDEGIA, AIDA S.</span></a></td></tr>
+        <tr><td>6:00 - 6:30</td></tr>
+        <tr><td>6:30 - 7:00</td><td rowspan="4" id="pe"><a href="profs/jennifer.html">PATHFIT 2 <br> <span class="room">Social Hall/Court</span><br><span class="prof">DELA CRUZ, JENNIFER G.</span></a></td></tr>
+        <tr><td>7:00 - 7:30</td></tr>
+        <tr><td>7:30 - 8:00</td></tr>
+        <tr><td>8:00 - 8:30</td></tr>
+
+    </table>
+</body>
+
+
+</html>
