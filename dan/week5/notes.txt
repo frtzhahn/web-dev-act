@@ -1,0 +1,23 @@
+profile
+    introduction
+    address + contact no.
+
+Education
+    elem
+    highschool
+    college
+
+Soft Skills
+    sociable
+    initiative
+    problem solver
+    
+
+Technical Skills
+    Computer Systems Management and Troubleshooting
+    Computer Hardware Diagnosis
+    Languages Learned:
+
+Experience
+    local tech/it support 
+    something abt consultation
