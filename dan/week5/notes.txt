@@ -11,13 +11,13 @@ Soft Skills
     sociable
     initiative
     problem solver
-    
+    active learner
 
 Technical Skills
-    Computer Systems Management and Troubleshooting
+    Computer Systems Servicing
     Computer Hardware Diagnosis
-    Languages Learned:
+    Programming Languages: HTMl, CSS, JavaScript, PHP, MySQL, C, Python, 
 
 Experience
-    local tech/it support 
-    something abt consultation
+    local tech/it support/consultant
+    Computer Systems Servicing NCII

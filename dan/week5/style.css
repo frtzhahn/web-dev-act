@@ -3,11 +3,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li{
-    /* border: 2px solid red; */
-}
 ul{
-    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
 }
@@ -15,5 +11,12 @@ ul{
     margin-left: 1rem;
     display: flex;
     flex-direction: row;
-    /* border: 2px solid black; */
+}
+
+h2{
+    margin: .5rem;
+}
+
+#address{
+    font-size: .8rem;
 }
