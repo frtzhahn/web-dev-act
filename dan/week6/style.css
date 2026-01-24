@@ -150,7 +150,7 @@ p{
     display: flex;
     justify-content: space-between;
     color: #666;
-    font-size: .6rem;
+    font-size: .7rem;
 }
 
 .footer > span{
@@ -161,12 +161,18 @@ p{
     margin: 0 10px;
 }
 
+.lang > img{
+    max-height: 15px;
+    /* border: 2px solid brown; */
+}
+
 .lang > *{
     margin: 5px;
 }
 
+
 .footer > span > a{
-    font-size: .6rem;
+    font-size: .7rem;
     margin: 5px;
     color: #666;
 }
