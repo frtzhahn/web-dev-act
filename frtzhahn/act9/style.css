@@ -1,0 +1,43 @@
+@font-face{
+	src: url(assets/fonts/Poppins-SemiBold.ttf);
+	font-family: poppins-bold;
+}
+
+@font-face{
+	src: url(assets/fonts/Poppins-Medium.ttf);
+	font-family: poppins-medium;
+}
+
+
+@font-face{
+	src: url(assets/fonts/FiraCode-Regular.ttf);
+	font-family: fira-code-regular;
+}
+
+body{
+	background-color: black;
+}
+
+header.header1{
+	background-color: black;
+	color: white;
+	font-family: poppins-bold;
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: right;
+
+}
+
+hr.line{
+	all: unset;
+	display: block;
+	width: 100%;
+	/* border: none; */
+	background-color: white;
+	height: 0.1px;
+
+}
+
+
