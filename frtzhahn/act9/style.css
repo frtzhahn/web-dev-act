@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    background-color: #202124;
+    background-color: #1F1F1F;
     color: #e8eaed;
     min-height: 100vh;
     display: flex;
@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 6px 8px;
-    height: 60px;
+    height: 50px;
 }
 
 /* navigation */
@@ -29,7 +29,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-right: 8px;
 }
 
 /* nav links */
@@ -103,10 +102,9 @@ main {
 /* search box container */
 .search-box {
     width: 100%;
-    max-width: 584px;
+    max-width: 684px;
     height: 48px;
-    background-color: #303134;
-    border: 1px solid #5f6368;
+    background-color: #5f6368;
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -169,10 +167,10 @@ input {
 
 /* ai mode button */
 .ai-btn {
-    background-color: #303134;
-    border: 1px solid #5f6368;
+    background-color: #5f6368;
+    border: 1px solid darkgrey;
     border-radius: 16px;
-    color: #8ab4f8;
+    color: white;
     font-size: 13px;
     font-weight: 500;
     padding: 6px 12px;
@@ -197,16 +195,16 @@ input {
 .buttons {
     display: flex;
     gap: 14px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .buttons button {
     background-color: #303134;
     border: 1px solid #303134;
-    border-radius: 4px;
+    border-radius: 10px;
     color: #e8eaed;
     font-size: 14px;
-    padding: 10px 16px;
+    padding: 8px 14px;
     cursor: pointer;
 }
 
@@ -219,7 +217,7 @@ input {
 .languages {
     font-size: 13px;
     color: #e8eaed;
-    margin-top: 28px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -236,7 +234,7 @@ input {
 /* footer */
 footer {
     background-color: #171717;
-    margin-top: auto;
+    margin-top: 114px;
 }
 
 /* location */
