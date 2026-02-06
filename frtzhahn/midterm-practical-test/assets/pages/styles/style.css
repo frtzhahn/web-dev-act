@@ -1,0 +1,49 @@
+@font-face {
+    src: url(PixelifySans-VariableFont_wght.ttf);
+    font-family: pixelfy-sans;
+}
+
+
+body {
+	background-color: #202124; 
+	margin: 0;
+	padding: 20px 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100vh;
+}
+
+.widget-column {
+	display: flex;
+  flex-direction: column;
+  gap: 25px; 
+  width: 90%;
+  max-width: 400px; 
+}
+
+.image-box {
+	background-color: #303134;
+  border-radius: 16px;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #3c4043;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease;
+}
+
+.image-box img {
+	width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.label {
+  font-family: pixelfy-sans;
+	margin-top: 12px;
+  font-size: 15px;
+  color: #9aa0a6; 
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
