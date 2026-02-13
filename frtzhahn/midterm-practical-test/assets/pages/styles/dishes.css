@@ -1,0 +1,196 @@
+/* dishes styling */
+/* fonts */
+@font-face {
+    src: url(fonts/PixelifySans-VariableFont_wght.ttf);
+    font-family: pixelfy-sans;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+    color: #e8eaed;
+    line-height: 1.6;
+}
+
+/* header with image */
+header {
+    background-color: #303134;
+    text-align: center;
+    padding: 0;
+    border-bottom: 2px solid #3c4043;
+}
+
+.header-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #171717;
+}
+
+.header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-family: pixelfy-sans;
+    font-size: 48px;
+    color: #ffffff;
+    padding: 30px 20px 10px 20px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 20px 30px 20px;
+		font-family: pixelfy-sans;
+}
+
+/* recipe meta info */
+.recipe-meta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #171717;
+    flex-wrap: wrap;
+}
+
+.recipe-meta span {
+    background-color: #303134;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #ffffff;
+		font-family: pixelfy-sans;
+    border: 1px solid #3c4043;
+}
+
+/* main content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* sections */
+section {
+    background-color: #303134;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #3c4043;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* section headers */
+section h2 {
+    font-family: pixelfy-sans;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3c4043;
+    padding-bottom: 15px;
+}
+
+section h3 {
+    font-size: 24px;
+    color: #8ab4f8;
+    margin-bottom: 15px;
+}
+
+/* ingredients list */
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredients li {
+    padding: 12px 0;
+    border-bottom: 1px solid #3c4043;
+    color: #e8eaed;
+    font-size: 16px;
+}
+
+.ingredients li:last-child {
+    border-bottom: none;
+}
+
+.ingredients li:before {
+    content: "✓ ";
+    color: #FFEA00;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* instructions list */
+.instructions ol {
+    padding-left: 25px;
+    counter-reset: step;
+}
+
+.instructions li {
+    padding: 15px 0;
+    color: #e8eaed;
+    font-size: 16px;
+    line-height: 1.8;
+    border-bottom: 1px solid #3c4043;
+}
+
+.instructions li:last-child {
+    border-bottom: none;
+}
+
+/* tips section */
+.tips {
+    background-color: #3c4043;
+    border-left: 4px solid #FFEA00;
+}
+
+.tips p {
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.tips h3{
+	color: #FFEA00;
+	font-family: pixelfy-sans;
+}
+
+/* bottom navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.bottom-nav a {
+    background-color: #303134;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 8px;
+	  font-family: pixelfy-sans;
+    border: 1px solid #3c4043;
+    transition: all 0.3s;
+}
+
+.bottom-nav a:hover {
+    background-color: #3c4043;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
