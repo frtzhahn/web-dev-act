@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login landpage</title>
+    <link rel="stylesheet" href="assets/style.css">
+		<link rel="icon" type="image/gif" href="assets/icon/nft.gif">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Welcome Back</h1>
+            <p>Please enter your details to log in</p>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="form-options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <a href="https://accounts.google.com" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-button">Sign In</button>
+        </form>
+
+        <div class="divider">or continue with</div>
+
+        <div class="social-login">
+					
+					<a href="https://accounts.google.com">
+            <button class="social-button">Google</button>
+					</a>
+
+					<a href="https://github.com/login/device">
+            <button class="social-button">GitHub</button>
+					</a>
+
+        </div>
+
+        <div class="signup-link">
+            Don't have an account? <a href="sign-up.html">Sign up</a>
+        </div>
+    </div>
+</body>
+</html>
